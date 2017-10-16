@@ -1,0 +1,430 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Project">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Project\Resource">
+      <UniqueIdentifier>{2cfb132d-83c1-4f78-84ed-dd98383f89f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\Objects">
+      <UniqueIdentifier>{f41f6017-5208-457b-a650-a7f5aec8c7c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\Objects\AI">
+      <UniqueIdentifier>{971a0a7a-8400-42a5-b15c-8b042ad9f285}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\Base">
+      <UniqueIdentifier>{82c11338-84bf-4895-8fb4-2d790f6e64bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\Physx">
+      <UniqueIdentifier>{18aa93e3-06c0-4f76-9103-f91f5672f6aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\Camera">
+      <UniqueIdentifier>{23f1093f-d1d9-454b-b48b-37bdc2b9750f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\Effect">
+      <UniqueIdentifier>{1f2a2faa-2fec-4c22-9491-422fc83f512e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\GUI">
+      <UniqueIdentifier>{b9961736-57c6-4dc7-814f-c1aab6e6ec0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\Video">
+      <UniqueIdentifier>{d7f36bb5-640e-4c9b-85f1-1a7d3095342f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="basefw_fs.cpp">
+      <Filter>Project</Filter>
+    </ClCompile>
+    <ClCompile Include="Frustrum.cpp">
+      <Filter>Project</Filter>
+    </ClCompile>
+    <ClCompile Include="Loading.cpp">
+      <Filter>Project</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager.cpp">
+      <Filter>Project</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>Project</Filter>
+    </ClCompile>
+    <ClCompile Include="Hierarchy.cpp">
+      <Filter>Project\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="O2ActiveMesh.cpp">
+      <Filter>Project\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="O2Mesh.cpp">
+      <Filter>Project\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="O2Texture.cpp">
+      <Filter>Project\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Project\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Arrow.cpp">
+      <Filter>Project\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="O22DObject.cpp">
+      <Filter>Project\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="O23DObject.cpp">
+      <Filter>Project\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="O2ActiveObject.cpp">
+      <Filter>Project\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="O2Alien.cpp">
+      <Filter>Project\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="O2Capsule.cpp">
+      <Filter>Project\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="O2Hero.cpp">
+      <Filter>Project\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="O2Item.cpp">
+      <Filter>Project\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="O2Light.cpp">
+      <Filter>Project\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="O2Object.cpp">
+      <Filter>Project\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="O2ObjectManager.cpp">
+      <Filter>Project\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="O2PassiveObject.cpp">
+      <Filter>Project\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="O2SoundManager.cpp">
+      <Filter>Project\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="O2SoundUtil.cpp">
+      <Filter>Project\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="O2UFO.cpp">
+      <Filter>Project\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Tsound.cpp">
+      <Filter>Project\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="O2AI.cpp">
+      <Filter>Project\Objects\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="O2AI_Alien.cpp">
+      <Filter>Project\Objects\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="O2AI_UFO.cpp">
+      <Filter>Project\Objects\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="JApp.cpp">
+      <Filter>Project\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="JDevice.cpp">
+      <Filter>Project\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="O2Actor.cpp">
+      <Filter>Project\Physx</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysXSDK.cpp">
+      <Filter>Project\Physx</Filter>
+    </ClCompile>
+    <ClCompile Include="Stream.cpp">
+      <Filter>Project\Physx</Filter>
+    </ClCompile>
+    <ClCompile Include="O2Camera.cpp">
+      <Filter>Project\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="O2CameraManager.cpp">
+      <Filter>Project\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="O2Input.cpp">
+      <Filter>Project\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="O2InputManager.cpp">
+      <Filter>Project\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>Project\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="O2PartFollow.cpp">
+      <Filter>Project\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="O2ParticleManager.cpp">
+      <Filter>Project\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="O2ParticleSystem.cpp">
+      <Filter>Project\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="O2PartStick.cpp">
+      <Filter>Project\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="O2PartTest.cpp">
+      <Filter>Project\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="O2PartWhirl.cpp">
+      <Filter>Project\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Project\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="ToonEffect.cpp">
+      <Filter>Project\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckBox.cpp">
+      <Filter>Project\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorGage.cpp">
+      <Filter>Project\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="HidingEffect.cpp">
+      <Filter>Project\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="O2GUIButton.cpp">
+      <Filter>Project\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="O2GUIManager.cpp">
+      <Filter>Project\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="O2GUIObject.cpp">
+      <Filter>Project\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="O2GUIOnce.cpp">
+      <Filter>Project\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="O2GUISprite.cpp">
+      <Filter>Project\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeGage.cpp">
+      <Filter>Project\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeSprite.cpp">
+      <Filter>Project\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="TIP.cpp">
+      <Filter>Project\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="TwinkleSprite.cpp">
+      <Filter>Project\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="DShowUlt.cpp">
+      <Filter>Project\Video</Filter>
+    </ClCompile>
+    <ClCompile Include="O2VideoRenderer.cpp">
+      <Filter>Project\Video</Filter>
+    </ClCompile>
+    <ClCompile Include="O2Viedo.cpp">
+      <Filter>Project\Video</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Project</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Project</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="basefw_fs.h">
+      <Filter>Project</Filter>
+    </ClInclude>
+    <ClInclude Include="Frustrum.h">
+      <Filter>Project</Filter>
+    </ClInclude>
+    <ClInclude Include="Loading.h">
+      <Filter>Project</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager.h">
+      <Filter>Project</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>Project</Filter>
+    </ClInclude>
+    <ClInclude Include="Hierarchy.h">
+      <Filter>Project\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="O2ActiveMesh.h">
+      <Filter>Project\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="O2Mesh.h">
+      <Filter>Project\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="O2Texture.h">
+      <Filter>Project\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Project\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Arrow.h">
+      <Filter>Project\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="O22DObject.h">
+      <Filter>Project\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="O23DObject.h">
+      <Filter>Project\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="O2ActiveObject.h">
+      <Filter>Project\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="O2Alien.h">
+      <Filter>Project\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="O2Capsule.h">
+      <Filter>Project\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="O2Hero.h">
+      <Filter>Project\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="O2Item.h">
+      <Filter>Project\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="O2Light.h">
+      <Filter>Project\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="O2Object.h">
+      <Filter>Project\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="O2ObjectManager.h">
+      <Filter>Project\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="O2PassiveObject.h">
+      <Filter>Project\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="O2SoundManager.h">
+      <Filter>Project\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="O2SoundUtil.h">
+      <Filter>Project\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="O2UFO.h">
+      <Filter>Project\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Tsound.h">
+      <Filter>Project\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="O2AI.h">
+      <Filter>Project\Objects\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="O2AI_Alien.h">
+      <Filter>Project\Objects\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="O2AI_UFO.h">
+      <Filter>Project\Objects\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="JApp.h">
+      <Filter>Project\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="JDevice.h">
+      <Filter>Project\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="O2Actor.h">
+      <Filter>Project\Physx</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysXSDK.h">
+      <Filter>Project\Physx</Filter>
+    </ClInclude>
+    <ClInclude Include="Stream.h">
+      <Filter>Project\Physx</Filter>
+    </ClInclude>
+    <ClInclude Include="O2Camera.h">
+      <Filter>Project\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="O2CameraManager.h">
+      <Filter>Project\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="O2Input.h">
+      <Filter>Project\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="O2InputManager.h">
+      <Filter>Project\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>Project\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="O2PartFollow.h">
+      <Filter>Project\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="O2ParticleManager.h">
+      <Filter>Project\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="O2ParticleSystem.h">
+      <Filter>Project\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="O2PartStick.h">
+      <Filter>Project\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="O2PartTest.h">
+      <Filter>Project\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="O2PartWhirl.h">
+      <Filter>Project\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Project\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="ToonEffect.h">
+      <Filter>Project\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckBox.h">
+      <Filter>Project\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorGage.h">
+      <Filter>Project\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="HidingEffect.h">
+      <Filter>Project\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="O2GUIButton.h">
+      <Filter>Project\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="O2GUIManager.h">
+      <Filter>Project\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="O2GUIObject.h">
+      <Filter>Project\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="O2GUIOnce.h">
+      <Filter>Project\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="O2GUISprite.h">
+      <Filter>Project\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeGage.h">
+      <Filter>Project\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeSprite.h">
+      <Filter>Project\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="TIP.h">
+      <Filter>Project\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="TwinkleSprite.h">
+      <Filter>Project\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="DShowUlt.h">
+      <Filter>Project\Video</Filter>
+    </ClInclude>
+    <ClInclude Include="O2Video.h">
+      <Filter>Project\Video</Filter>
+    </ClInclude>
+    <ClInclude Include="O2VideoRenderer.h">
+      <Filter>Project\Video</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Icon.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="toon.fx" />
+  </ItemGroup>
+</Project>

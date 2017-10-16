@@ -1,0 +1,6 @@
+Clear()
+
+[PlayVideo]
+FileName="ending.avi";
+Time=20.0f;
+[END]
